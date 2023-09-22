@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.main{
+    width: 120%;
+    background-image: linear-gradient(rgb(0, 114, 0), 20%, #022719) ;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;  
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #56CC6E;
+    font-size: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #b7ebbd;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul li a:hover{
+    color: #56cc6e;
+}
+
+.search{
+    width: 300px;
+    float: left;
+    margin: 30px 30px;
+}
+
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #56cc6e;
+    margin-top: 13px;
+    color: #b7ebbd;
+    border-right: none;
+    font-size: 20px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #56cc6e;
+    margin-top: 13px;
+    color: #b7ebbd;
+    font-size: 20px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: 800px;
+    margin: 150px;
+    color: #b7ebbd;
+    position: relative;
+}
+
+p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    line-height: 120px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300px;
+    padding-left: 20px;
+    margin-top: 80%;
+    letter-spacing: 5px;
+}
